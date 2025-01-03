@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #f1f1f1;
+      }
+      input,
+      button {
+        margin: 10px;
+        padding: 5px;
+        outline: none;
+        border: none;
+      }
+      input,
+      button {
+        transition: all 300ms ease-in-out;
+        border: 1px solid #ddd;
+      }
+      button:hover {
+        cursor: pointer;
+        color: #ddd;
+        background-color: rgb(151, 134, 134);
+      }
+    </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
-    <h1 style="text-align: center; color: red">hello world</h1>
+    <h1 style="text-align: center; color: rgb(49, 47, 47)">
+      Send data to DataBase
+    </h1>
+    <input type="text" placeholder="Your name here" />
+    <br />
+    <button style="margin-top: 10px">Send To DataBase</button>
   </body>
 </html>
